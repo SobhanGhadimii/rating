@@ -1,0 +1,117 @@
+.container {
+  margin: 160px;
+  padding: 20px;
+}
+.container_grid {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 208px;
+}
+
+.title {
+  color: hsl(300, 43%, 22%);
+  font-family: "League Spartan", sans-serif;
+  font-weight: 800;
+  max-width: 250px;
+}
+.text {
+  color: hsl(303, 10%, 53%);
+  font-size: 15px;
+  max-width: 350px;
+}
+.rating {
+  background-color: hsla(300, 30%, 89%, 0.397);
+  font-family: "League Spartan", sans-serif;
+  color: hsl(300, 43%, 22%);
+  font-size: 15px;
+  font-weight: 500px;
+  width: 350px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  border-radius: 10px;
+}
+.rating_text {
+  color: hsl(300, 43%, 22%);
+  font-size: 15px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 800;
+}
+.user {
+  display: flex;
+}
+.user_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  height: 150px;
+  width: 250px;
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+.profile_picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.profile_name {
+  color: #ffff;
+  font-weight: 400px;
+  font-family: "League Spartan", sans-serif;
+}
+.user_rule {
+  color: hsl(333, 80%, 67%);
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
+}
+.card_text {
+  color: #ffff;
+  font-size: 15px;
+  font-family: "League Spartan", sans-serif;
+  margin-top: 10px;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.rating_column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media screen and (max-width: 878px) {
+  .title_container {
+    flex-direction: column;
+
+    margin: 0px;
+  }
+  .container {
+    padding: 0%;
+  }
+  .rating {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  .cards_container {
+    flex-direction: column;
+  }
+}
